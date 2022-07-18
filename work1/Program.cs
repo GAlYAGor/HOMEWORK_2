@@ -3,6 +3,6 @@
 Console.WriteLine("Введите трёхзначное число");
 int chislo = int.Parse(Console.ReadLine());
 
-int chislo2 = ((chislo/10)%10);
+int chislo2 = ((chislo / 10) % 10);
 
 Console.Write(chislo2);
